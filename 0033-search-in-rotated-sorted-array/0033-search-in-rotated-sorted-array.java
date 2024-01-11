@@ -11,7 +11,7 @@ class Solution {
                 return left;
             } else if (target == nums[right]) {
                 return right;
-            }else if (nums[left] < nums[mid]) { // 왼쪽이 오름차순일 때
+            } else if (nums[left] < nums[mid]) { // 왼쪽이 오름차순일 때
                 if (nums[left] <= target && target <= nums[mid]) {
                     right = mid -1;
                 } else {
